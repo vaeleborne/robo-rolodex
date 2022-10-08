@@ -1,0 +1,14 @@
+:root {
+    --bg-main: #0a2636;
+    --primary: #d2d2d2;
+    --primary-faded: #959191;
+    --color-bright: #0af7c4;
+    --primary-hover: #ffffff;
+    --secondary-hover: #5eaca8;
+    --secondary:  #031e2e;
+}
+
+.custom-card {
+    background-color: var(--secondary);
+    color: var(--primary);
+}
