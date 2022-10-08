@@ -1,14 +1,26 @@
 :root {
-    --bg-main: #0a2636;
-    --primary: #d2d2d2;
-    --primary-faded: #959191;
-    --color-bright: #0af7c4;
-    --primary-hover: #ffffff;
-    --secondary-hover: #5eaca8;
-    --secondary:  #031e2e;
-}
+    --bg-main: #0c1e3e;
+    --secondary:  #122c5a;
+    --border: #8e52f5;
+    --highlight: #fc0ff5;
+    --bright: #38fbdb;
+  }
 
 .custom-card {
     background-color: var(--secondary);
-    color: var(--primary);
+    color: var(--bright);
+    border: 4px outset var(--border);
+    padding: 8px;
+}
+
+.btn-outline-info.custom-color {
+    color: var( --bright);
+    border-color: var( --border);
+}
+
+.btn-outline-info.custom-color:hover {
+   
+    border-color: var( --border);
+    background-color: var( --highlight);;
+    color: var(--bright);
 }

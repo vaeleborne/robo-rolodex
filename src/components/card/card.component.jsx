@@ -27,7 +27,7 @@ class Card extends Component {
                     <div className='card-body'>
                         <p className='card-text'>{StringToBinary('Lorem ipsum')}</p>
                         <p className='card-text'>{email}</p>
-                        <a href={url} class="btn btn-outline-success" target={"_blank"}>View My Page!</a>
+                        <a href={url} class="btn btn-outline-info custom-color" target={"_blank"}>View My Page!</a>
                     </div>
                 </div>
             </div>
